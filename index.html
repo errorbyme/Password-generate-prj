@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/boot-link/bootstrap.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
     <link rel="stylesheet" href="style.css">
@@ -11,7 +12,7 @@
 </head>
 
 <body>
-    <div class="container rounded-2">
+    <div class="container rounded-2 m-1">
         <form action="">
             <h1 class="my-2 fw-bold">Password Generator</h1>
             <div class="input-box my-4 position-relative">
@@ -25,25 +26,25 @@
                 </div>
                 <input type="range" class="w-100" id="range" min="1" max="30" step="1" value="8">
             </div>
-            <ul class="options row list-unstyled">
-                <li class="option col-sm-6 ps-5 py-1">
+            <ul class="options row list-unstyled text-center">
+                <li class="option col-sm-6">
                     <input type="checkbox" class="" id="lowercase" checked>
                     <label for="lowercase">lowercase(a-z)</label>
                 </li>
-                <li class=" option col-sm-6 ps-5 py-1">
+                <li class=" option col-sm-6">
                     <input type="checkbox" class="" id="uppercase">
                     <label for="uppercase">uppercase(A-Z)</label>
                 </li>
-                <li class=" option col-sm-6 ps-5 py-1">
+                <li class=" option col-sm-6">
                     <input type="checkbox" class="" id="numbers">
                     <label for="numbers">number(0-9)</label>
                 </li>
-                <li class=" option col-sm-6 ps-5 py-1">
+                <li class=" option col-sm-6">
                     <input type="checkbox" class="" id="symbols">
                     <label for="symbols">symbols(&*#$)</label>
                 </li>
             </ul>
-            <button type="button" class="btn btn-warning form-control" id="genpswdbtn">Generate pass</button>
+            <button type="button" class="btn btn-warning form-control mb-5" id="genpswdbtn">Generate pass</button>
         </form>
     </div>
     <script src="script.js"></script>
