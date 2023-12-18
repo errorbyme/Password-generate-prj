@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 450px;
+    min-height: 350px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.fa-clone {
+    color: blue;
+}
+
+.fa-check {
+    color: green;
+}
+
+#copytext {
+    visibility: hidden;
+}
