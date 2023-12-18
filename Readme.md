@@ -1,1 +1,1 @@
-# This is a password generate prj
+# This is a password generator prj
